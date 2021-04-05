@@ -1,0 +1,27 @@
+{
+  "name": "beds",
+  "version": "0.0.1",
+  "description": "Simple app for reserving beds",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bahner/beds.git"
+  },
+  "keywords": [
+    "beds",
+    "reservations"
+  ],
+  "author": "Lars Bahner",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/bahner/beds/issues"
+  },
+  "homepage": "https://github.com/bahner/beds#readme",
+  "dependencies": {
+    "apollo-server": "^2.22.2",
+    "graphql": "^15.5.0"
+  }
+}
